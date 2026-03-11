@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "express": "^5.2.1",
+    "firebase-admin": "^13.7.0",
+    "morgan": "^1.10.1"
+  },
+  "name": "code_challenge_4_bed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^25.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "start": "npm run build && node dist/src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sharhan-rrc/Code_Challenge_4_BED.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Sharhan-rrc/Code_Challenge_4_BED/issues"
+  },
+  "homepage": "https://github.com/Sharhan-rrc/Code_Challenge_4_BED#readme"
+}
