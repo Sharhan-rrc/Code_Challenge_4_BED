@@ -16,6 +16,9 @@
     "typescript": "^5.9.3"
   },
   "scripts": {
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "start": "npm run build && node dist/src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
